@@ -3,6 +3,10 @@
 void pattern(int iNo)
 {
     int iCount = 0;
+    if(iNo<0)
+    {
+        iNo = -iNo;
+    }
     for(iCount=0;iCount<=iNo;iCount++)
     {
         printf("$\t*\t",iCount);
